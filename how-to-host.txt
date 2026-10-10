@@ -1,0 +1,9 @@
+Upload everything in this folder to the root of a static host.
+
+Netlify, Vercel, Cloudflare Pages, and GitHub Pages can all serve it.
+Do not upload the rest of the project. This folder is the finished site.
+
+Open the site from the host's web address, not by double-clicking index.html.
+Shop, product, checkout, and admin links need the host to send unknown paths
+back to index.html. The files _redirects, vercel.json, 404.html, and .htaccess
+are already included for the hosts that use them.
